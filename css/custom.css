@@ -10,14 +10,14 @@
 
 #nav.name a{
 	color: black;
-	font-family: arial;
-	font-size: Medium;
-	letter-spacing: 1px;
+	font: "open sans";
+	font-size: Large;
+	letter-spacing: 2px;
 }
 
 #nav.left a {
 	color: black;
-	font-family: arial;
+	font: "open sans";
 	font-size: small;
 	letter-spacing: 1.5px;
 }
