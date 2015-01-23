@@ -1,0 +1,122 @@
+.contain-to-grid, .top-bar{
+	background-color: #FFFFFF; opacity: 0.95; filter: alpha(opacity=50);
+}
+
+.name{
+    background: #FFFFFF; opacity: 0.95; filter: alpha(opacity=50);
+    padding: 1px 15px;
+    height: 45px !important;
+}
+
+#nav.name a{
+	color: black;
+	font-family: arial;
+	font-size: Medium;
+	letter-spacing: 1px;
+}
+
+#nav.left a {
+	color: black;
+	font-family: arial;
+	font-size: small;
+	letter-spacing: 1.5px;
+}
+
+.white_bg{
+	background-image: url(../img/white_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    margin-bottom: 30px;
+}
+
+.quote#bringhurst {
+  background: transparent;
+  padding: 150px 0; }
+  .quote#bringhurst .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 410px; }
+  .quote#bringhurst h1 {
+    color: #333;
+    font: 400 30px/40px "vollkorn";
+    font-style: italic;
+    margin: 0 0 10px 0;
+    text-indent: -6px; }
+  .quote#bringhurst p {
+    color: #c90707;
+    font: 400 17px/23px "vollkorn";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-indent: -13px; }
+
+	
+.main#fatface {
+  background: transparent;
+  padding: 45px 0; }
+  .main#fatface h1 {
+	color: black;
+	font: 400 80px/84px Abril Fatface;
+	}
+.main#fatface h2 {
+  padding: 10px 0;
+  color: white;
+  font: 200 80px/84px Abril Fatface;
+}
+
+.main#opensans {
+  background: transparent;
+  padding: 45px 0; }
+  .main#opensans p {
+	color: #666;
+	font: 300 18px/24px "open sans";
+	}	
+
+.white_bg2{
+	background-image: url(../img/white_background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+    margin-bottom: 30px;
+}	
+
+.top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button){
+    background: none;
+    
+}
+
+.top-bar-section li:not(.has-form) a:hover:not(.button){
+    background: none;
+    text-decoration: underline;
+    color: #1a1a1a;
+    
+}
+
+.top-bar-section ul li > a{
+    color: #1a1a1a;
+}
+
+.row:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -90px; 
+  height: 90px; 
+  visibility: hidden;
+    
+}
+
+section{
+    padding-bottom: 150px;
+}
+#contact{
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+#contact li>ul>li{
+    padding: 5px 0;
+}
+
+ul, ol, dl {
+    list-style: none;
+}
